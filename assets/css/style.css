@@ -469,8 +469,18 @@ textarea::-ms-input-placeholder
     -moz-background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
+	background-attachment: fixed;
     width: 100%;
     overflow: hidden;
+	min-width: 100%;
+    min-height: 100%;
+	height: 100vh;
+}
+
+@media (max-width: @iphone-screen) {
+    .home{
+         background-attachment: scroll;
+    }
 }
 .home-wrapper{
     margin-top:240px;
