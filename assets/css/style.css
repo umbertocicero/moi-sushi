@@ -496,7 +496,7 @@ textarea::-ms-input-placeholder
 	}
 	
 }
-@media screen and (orientation: portrait) and (max-width: 800px){
+@media screen and (max-width: 800px){
 	.experience{
     background: url(../images/fuji_mount_portrait.jpg) no-repeat center top !important;
 
@@ -665,8 +665,13 @@ textarea::-ms-input-placeholder
 
 
 /* For Portfolio Section*/
+
+
+
 .portfolio-item {
-	margin-bottom:20px;
+	 margin-bottom:20px; 
+}
+.portfolio-wrapper{
 }
 
 .portfolio-wrapper2{
