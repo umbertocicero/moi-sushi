@@ -472,16 +472,19 @@ textarea::-ms-input-placeholder
 	background-attachment: fixed;
     width: 100%;
     overflow: hidden;
+	/* */
 	min-width: 100%;
     min-height: 100%;
 	height: 100vh;
+	
 }
-
+/* */
 @media (max-width: @iphone-screen) {
     .home{
          background-attachment: scroll;
     }
 }
+
 .home-wrapper{
     margin-top:240px;
     color:#fff;
@@ -740,7 +743,7 @@ textarea::-ms-input-placeholder
     border-right:1px solid #c3bec2;
     padding:0 10px 0 10px;
 }
-.main-footer .social a i.dribbble{
+.main-footer .social a i.noborder{
     border-right:0;
 }
 .main-footer p{
