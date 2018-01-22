@@ -30,12 +30,18 @@ jQuery(document).ready(function ($) {
      * Portfolio Pop Up Animation
      ---------------------------------------------*/
 
+	 /*
     $('.portfolio-img').magnificPopup({
         type: 'image',
         gallery: {
             enabled: true
         }
     });
+	*/
+	
+	$( '.swipebox' ).swipebox({
+		loopAtEnd: true
+	});
 
     /*---------------------------------------------*
      * Menu Section

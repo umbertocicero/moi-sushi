@@ -477,45 +477,33 @@ textarea::-ms-input-placeholder
     -o-background-size: cover;
 	background-attachment: fixed;
     width: 100%;
-    overflow: hidden;
-	/*
-	min-width: 100%;
-    min-height: 100%;
-	height: 100vh;
-	*/
-	
+    overflow: hidden;	
 }
 
- @media (max-width: 800px) {
-    .home {
-        background: url(../images/foto1.jpg) no-repeat center center !important; 
-     /*   background-size: 100%, 100% !important; */
+@media only screen and (max-width: 768px){
+	 .home {
+        background: url(../images/foto_portrait_sfumata.png) no-repeat center center !important; 
     }
 	.home-main-content {
 		background-color: rgba(0, 0, 0, 0.98) !important;
 	}
-	
-}
-@media screen and (max-width: 800px){
 	.experience{
-    background: url(../images/fuji_mount_portrait.jpg) no-repeat center top !important;
-
-	
+    background: url(../images/fuji_mount_portrait_sfumata.png) no-repeat center top !important;
 	}
 	.experience-main-content {
 		background-color: rgba(0, 0, 0, 0.98) !important;
 	}
 	.contact{
-		background: url(../images/contact_bg_portrait.jpg) no-repeat center top !important;
-		
+		background: url(../images/contact_bg_portrait_sfumata.png) no-repeat center top !important;
+	}
+	.contact-main-content {
+		background-color: #bea241 !important;
+	}
    
 }
-	
-	
-	
-}
-.home-wrapper{
-    margin-top:240px;
+
+.home-wrapper {
+    margin-top: 240px;
     color:#fff;
 }
 .home-content h1{
@@ -933,10 +921,10 @@ Main components
     bottom: -6px;
 }
 .no-touch .cd-menu-trigger:hover span::before {
-    top: -18px;
+    top: -11px;
 }
 .no-touch .cd-menu-trigger:hover span::after {
-    bottom: -8px;
+    bottom: -11px;
 }
 @media only screen and (min-width: 768px) {
     .cd-menu-trigger {
