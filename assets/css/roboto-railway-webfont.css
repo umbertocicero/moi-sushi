@@ -2,31 +2,31 @@
 	font-family:'Raleway';
 	font-style:normal;
 	font-weight:600;
-	src:local('Raleway SemiBold'), local('Raleway-SemiBold'), url("../fonts/Raleway-SemiBold.woff2") format('woff2');
+	src:local('Raleway SemiBold'), local('Raleway-SemiBold'), url("../fonts/raleway/Raleway-SemiBold.woff2") format('woff2');
 }
 @font-face {
 	font-family:'Raleway';
 	font-style:normal;
 	font-weight:700;
-	src:local('Raleway Bold'), local('Raleway-Bold'), url("../fonts/Raleway-Bold.woff2") format('woff2');
+	src:local('Raleway Bold'), local('Raleway-Bold'), url("../fonts/raleway/Raleway-Bold.woff2") format('woff2');
 }
 @font-face {
 	font-family:'Raleway';
 	font-style:normal;
 	font-weight:900;
-	src:local('Raleway Black'), local('Raleway-Black'), url("../fonts/Raleway-Black.woff2") format('woff2');
+	src:local('Raleway Black'), local('Raleway-Black'), url("../fonts/raleway/Raleway-Black.woff2") format('woff2');
 }
 @font-face {
 	font-family:"Roboto";
 	font-style:normal;
 	font-weight:400;
-	src:local("Roboto"), url("../fonts/Roboto-Regular.woff2") format("woff2");
+	src:local("Roboto"), url("../fonts/roboto/Roboto-Regular.woff2") format("woff2");
 }
 @font-face {
 	font-family:"Roboto";
 	font-style:normal;
 	font-weight:700;
-	src:local("Roboto Bold"), url("../fonts/Roboto-Bold.woff2") format("woff2");
+	src:local("Roboto Bold"), url("../fonts/roboto/Roboto-Bold.woff2") format("woff2");
 }
 
 /* heebo-regular - latin */
