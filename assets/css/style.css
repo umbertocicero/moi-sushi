@@ -7,8 +7,11 @@
      padding: 0;
      margin-left: 0;
      margin-right: 0;
-     font-family: 'robotoregular';
-     font-weight: 300;
+     font-family: 'Heebo';
+     font-weight: 400;
+}
+p, h4 {
+    letter-spacing: 1px;
 }
 /*========================================== PRE LOADER ==========================================*/
  .preloader {
@@ -91,15 +94,11 @@
      border-color: #fff;
 }
  h1, h2, h3 {
-    /*font-family: 'Lane', sans-serif;
-    */
      font-weight: 300;
      margin: 0;
      color:#525252;
 }
  h4, h5 {
-    /*font-family: 'roboto', sans-serif;
-    */
      font-weight: 300;
      margin: 0;
      line-height: 2rem;
@@ -144,8 +143,6 @@
 /*.home-wrap h1,*/
  .home-wrap h2, .home-wrap h3, .home-wrap h4, .home-wrap h5, .home-wrap p {
      color: #ffffff;
-    /*font-family: 'roboto', sans-serif;
-    */
 }
  .text {
      color: #333333;
@@ -185,8 +182,12 @@
      color:#fff;
 }
  .sections3{
-     padding-top: 100px;
+	 padding-top: 50px;
+	 padding-bottom: 50px;
+   /*  
+     padding-top: 100px; 
      padding-bottom: 100px;
+	 */
      position: relative;
      overflow: hidden;
 }
@@ -204,7 +205,7 @@
  section .subtitle h5 {
      margin-top: 10px;
      font-size: 1.3rem;
-     font-family: 'roboto', sans-serif;
+     font-family: 'Heebo', sans-serif;
 }
  .parallax-section {
      max-width: 100%;
@@ -371,7 +372,7 @@
 }
  .heading-content h3{
      font-size:40px;
-     font-family: "Raleway Webfont";
+     font-family: "Playfair Display";
      font-weight:700;
      letter-spacing:3px;
 }
@@ -441,7 +442,7 @@
      text-transform:uppercase;
      color:#fff;
      font-weight:900;
-     font-family: "Raleway Webfont";
+     font-family: "Playfair Display";
      letter-spacing:12px;
      border-top:2px solid #ecf0f2;
      border-bottom:2px solid #ecf0f2;
@@ -458,7 +459,7 @@
 }
  .about-content h4{
      font-size:18px;
-     font-family: 'robotobold';
+     font-family: 'Heebo';
 }
  .about-content a{
      margin-top:40px;
@@ -554,7 +555,7 @@
      color:#fff;
      text-transform:uppercase;
      font-size:26px;
-     font-family: "Raleway Webfont";
+     font-family: "Playfair Display";
      font-weight:600;
      margin-bottom:50px;
 }
@@ -634,7 +635,7 @@
      color:#fff;
      text-transform:uppercase;
      font-size:26px;
-     font-family: "Raleway Webfont";
+     font-family: "Playfair Display";
      font-weight:600;
      margin-bottom:50px;
 }
@@ -705,8 +706,9 @@
      */
      overflow: hidden;
      background-color: #3a393f;
-    /* slightly visible only when we resize this element */
+    /* slightly visible only when we resize this element  
      box-shadow: 0 0 40px rgba(0, 0, 0, 0.8);
+	*/
      z-index: 1;
     /* Force Hardware Acceleration in WebKit */
      -webkit-transform: translateZ(0);
@@ -856,6 +858,7 @@
      -webkit-transition-duration: 0.5s;
      -moz-transition-duration: 0.5s;
      transition-duration: 0.5s;
+	 
      z-index: 3;
 }
  #main-nav ul {
@@ -870,7 +873,7 @@
      display: block;
      padding: 0 10%;
      height: 100%;
-     border-bottom: 1px solid #dfdbec;
+  /*   border-bottom: 1px solid #dfdbec; */
      color: #3a393f;
      font-size: 20px;
      font-size: 1.25rem;
