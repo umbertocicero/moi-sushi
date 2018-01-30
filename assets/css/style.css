@@ -334,8 +334,10 @@ font-family: 'Playfair Display'
      overflow:hidden;
     /* min-height:1200px;
      min-height:800px;
-     */
+    
      min-height: 100%;
+	  */
+	  min-height:800px;
 }
 /* .overlay-parallax {
      min-height:800px! important;
@@ -525,7 +527,7 @@ font-family: 'Playfair Display'
  .home {
      background-image: url(../images/header-bg.jpg);
      background-position: center top;
-    /* background: url(../images/header-bg.jpg) no-repeat center top fixed;
+  /*   background: url(../images/header-bg.jpg) no-repeat center top fixed;
      background-size: cover;
      -moz-background-size: cover;
      -webkit-background-size: cover;
@@ -537,22 +539,16 @@ font-family: 'Playfair Display'
 }
  @media only screen and (max-width: 768px){
      .home {
-         background: url(../images/foto_portrait_sfumata.png) no-repeat center center !important;
-    }
-     .home-main-content {
-         background-color: rgba(0, 0, 0, 0.98) !important;
+         background: url(../images/foto_portrait_sfumata.png) no-repeat center top !important;
+		 background-color: rgba(0, 0, 0, 0.98) !important;
     }
      .experience{
          background: url(../images/fuji_mount_portrait_sfumata.png) no-repeat center top !important;
-    }
-     .experience-main-content {
-         background-color: rgba(0, 0, 0, 0.98) !important;
+		 background-color: rgba(0, 0, 0, 0.98) !important;
     }
      .contact{
          background: url(../images/contact_bg.jpg) no-repeat center center !important;
-    }
-     .contact-main-content {
-        /* background-color: #bea241 !important;
+		 /* background-color: #bea241 !important;
          */
     }
 }
