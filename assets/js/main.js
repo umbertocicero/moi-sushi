@@ -2,14 +2,16 @@
 
 
 jQuery(document).ready(function ($) {
-
+/*
 	$(window).load(function () {
 		$(".loaded").fadeOut();
 		$(".preloader").delay(1000).fadeOut("slow");
 	});
+	*/
     /*---------------------------------------------*
      * Mobile menu
      ---------------------------------------------*/
+	 
     $('#navbar-collapse').find('a[href*=#]:not([href=#])').click(function () {
         if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
             var target = $(this.hash);
@@ -40,20 +42,20 @@ jQuery(document).ready(function ($) {
 
     $('.cd-menu-trigger').on('click', function (event) {
         event.preventDefault();
-        $('.home-main-content').addClass('move-out');
+      //  $('.home-main-content').addClass('move-out');
         $('#main-nav').addClass('is-visible');
-        $('.cd-shadow-layer').addClass('is-visible');
+      //  $('.cd-shadow-layer').addClass('is-visible');
     });
     //close menu
     $('.cd-close-menu').on('click', function (event) {
         event.preventDefault();
-        $('.home-main-content').removeClass('move-out');
+    //    $('.home-main-content').removeClass('move-out');
         $('#main-nav').removeClass('is-visible');
-        $('.cd-shadow-layer').removeClass('is-visible');
+    //    $('.cd-shadow-layer').removeClass('is-visible');
     });
 
     //clipped image - blur effect
-    set_clip_property();
+   /* set_clip_property();
     $(window).on('resize', function () {
         set_clip_property();
     });
@@ -65,12 +67,13 @@ jQuery(document).ready(function ($) {
                 $window_width = $(window).width();
         $('.cd-blurred-bg').css('clip', 'rect(' + $header_top + 'px, ' + $window_width + 'px, ' + $window_height + 'px, 0px)');
     }
+	*/
     $('#main-nav a[href^="#"]').on('click', function (event) {
         event.preventDefault();
         var target = $(this.hash);
-        $('.home-main-content').removeClass('move-out');
+       // $('.home-main-content').removeClass('move-out');
         $('#main-nav').removeClass('is-visible');
-        $('.cd-shadow-layer').removeClass('is-visible');
+       // $('.cd-shadow-layer').removeClass('is-visible');
         $('body,html').animate(
                 {'scrollTop': target.offset().top},
         900
