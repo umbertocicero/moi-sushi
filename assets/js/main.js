@@ -2,6 +2,7 @@
 
 
 jQuery(document).ready(function ($) {
+
 /*
 	$(window).load(function () {
 		$(".loaded").fadeOut();
@@ -33,6 +34,7 @@ jQuery(document).ready(function ($) {
      Carousel
      ---------------------------------------------------------------------= */
 	$( '.swipebox' ).swipebox({
+		hideBarsDelay : 5000,
 		loopAtEnd: true
 	});
 
