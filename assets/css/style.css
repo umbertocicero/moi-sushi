@@ -546,6 +546,10 @@ font-family: 'Playfair Display'
          background: url(../images/fuji_mount_portrait_sfumata.png) no-repeat center top !important;
 		 background-color: rgba(0, 0, 0, 0.98) !important;
     }
+	.castello{
+         background: url(../images/castello.png) no-repeat center top !important;
+		 background-color: rgba(0, 0, 0, 0.98) !important;
+    }
      .contact{
          background: url(../images/contact_bg.jpg) no-repeat center center !important;
 		 /* background-color: #bea241 !important;
@@ -698,6 +702,45 @@ font-family: 'Playfair Display'
      padding-bottom: 30px;
      margin-bottom: 30px;
 }
+
+/*For Castello Section*/
+ .castello{
+     background: url(../images/castello.jpg);
+}
+ .castello-wrapper{
+     margin-top:30px;
+}
+ .castello-content{
+     background: rgba(79, 50, 68, .7);
+     padding:30px 30px;
+     color:#fff;
+     margin-bottom: 50px;
+}
+ .castello-content h4{
+     color:#fff;
+     text-transform:uppercase;
+     font-size:26px;
+     font-family: "Playfair Display";
+     font-weight:600;
+     margin-bottom:50px;
+}
+ .castello-content .content-details h5{
+     color:#fff;
+     font-size:18px;
+}
+ .castello-content .content-details h6{
+     color:#ecf0f2;
+     font-size:16px;
+}
+ .castello-content .content-details p{
+     color:#ecf0f2;
+}
+ .castello-content .content-details.content-border{
+     border-bottom:1px solid #dadada;
+     padding-bottom: 30px;
+     margin-bottom: 30px;
+}
+
 /* For Portfolio Section*/
  .portfolio-item {
 	 margin-bottom: 20px;
