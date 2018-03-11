@@ -547,7 +547,7 @@ font-family: 'Playfair Display'
 		 background-color: rgba(0, 0, 0, 0.98) !important;
     }
 	.castello{
-         background: url(../images/castello.png) no-repeat center top !important;
+         background: url(../images/castello.jpg) no-repeat center top !important;
 		 background-color: rgba(0, 0, 0, 0.98) !important;
     }
      .contact{
@@ -555,6 +555,9 @@ font-family: 'Playfair Display'
 		 /* background-color: #bea241 !important;
          */
     }
+	.overlay {
+		min-height: 500px;
+	}
 }
  .home-wrapper {
      margin-top: 240px;
