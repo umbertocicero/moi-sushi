@@ -1,12 +1,14 @@
-# MOI - Ristorante Giapponese
-## La classe e la sobrietà giapponese unite alla creatività italiana
+# Restaurant Website
 
-Il sushi è molto di più che mettere del pesce sul riso. Il sushi è una forma d’arte.
+## MOI - Ristorante Giapponese e Sake Cocktail Bar
+#### La classe e la sobrietÃ  giapponese unite alla creativitÃ  italiana
+
+> Il sushi Ã¨ molto di piÃ¹ che mettere del pesce sul riso. Il sushi Ã¨ una forma dâ€™arte.
 (Jiro Ono)
 
 # Framework
 
-Bootstrap v3.3.1
-jQuery v1.11.2
-Swipebox v1.4.4
-Modernizr 2.8.3 
+- Bootstrap v3.3.1
+- jQuery v1.11.2
+- Swipebox v1.4.4
+- Modernizr 2.8.3 
