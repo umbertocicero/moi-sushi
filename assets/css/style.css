@@ -137,55 +137,7 @@
  .form-control:focus {
      border-color: #fff;
 }
-/* h1, h2, h3 {
-     font-weight: 300;
-     margin: 0;
-}
- h4, h5 {
-     font-weight: 300;
-     margin: 0;
-     line-height: 2rem;
-}
- h2, h3, h4{
-     color: #8d6d40;
-}
- h1 {
-     font-size: 3rem;
-     line-height: 4rem;
-     font-weight: 300;
-}
- h2 {
-     font-size: 2.5rem;
-     line-height: 3rem;
-     margin-bottom: .9rem;
-}
- h3 {
-     font-weight: 300;
-     margin-bottom: .9rem;
-     font-size: 2.1rem;
-     line-height: 2.5rem;
-}
- h4 {
-     font-size: 1.6rem;
-     line-height: 2.2rem;
-     margin-bottom: 1.8rem;
-}
- h5 {
-     font-size: 1.3rem;
-     margin-bottom: 1rem;
-}
- h6 {
-     font-size: 1rem;
-     margin-bottom: .9rem;
-}
- p {
-     line-height: 1.5rem;
-     font-size: 1rem;
-}
- p:last-child {
-     margin-bottom:0px;
-}
- */
+
 /* DINAMIC STYLE */
  h1, .h1, .title h1 {
      color: #797166;
@@ -477,13 +429,6 @@ font-family: 'Playfair Display'
  .heading-content{
      margin-bottom: 2rem;
 }
-/* .heading-content h3{
-     font-size:40px;
-     font-family: "Playfair Display";
-     font-weight:700;
-     letter-spacing:3px;
-}
- */
  .btn-default {
      color: #fff;
      background-color: #ff2b4a;
@@ -749,10 +694,12 @@ font-family: 'Playfair Display'
 	 margin-bottom: 20px;
 }
  .portfolio-wrapper{
-	 padding:20px;
+	 padding: 10px;
 }
- .portfolio-wrapper2{
-     margin-top:25px;
+ @media only screen and (min-width: 480px) and (max-width: 768px){
+      .portfolio-wrapper{
+			padding: 0px 10px 0px 10px;
+		}
 }
  .portfolio-wrapper2 .portfolio-item.width-img{
      width:100%;
@@ -852,24 +799,17 @@ font-family: 'Playfair Display'
 }
  .box-details h3 {
      position: relative;
-    /* font-size: 24px;
-     font-weight: 700;
-    */
      margin-bottom: 40px;
      letter-spacing: 1px;
      text-transform: uppercase;
 }
  .box-details h4 {
      position: relative;
-    /* font-size: 16px;
-     font-weight: 700;
-     */
      margin-bottom: 10px;
 }
  .box-details p{
      margin: 0 0 10px;
 }
-
 
   .footer-social ul.social {
     list-style-type: none;
