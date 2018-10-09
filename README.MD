@@ -1,7 +1,7 @@
 # Restaurant Website
 Restaurant One Page Website. [Link](https://moiprato.it)
 
-## MOI - Ristorante Giapponese e Sake Cocktail Bar 🍣
+## MOI - Ristorante Omakase e Sake 🍣
 #### La classe e la sobrietà giapponese unite alla creatività italiana
 
 > Il sushi è molto di più che mettere del pesce sul riso. Il sushi è una forma d’arte.
