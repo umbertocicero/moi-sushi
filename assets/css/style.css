@@ -126,6 +126,21 @@
  img {
      max-width: 100%;
 }
+button.btn-booking {
+    background-color: transparent !important;
+    border-color: #967f39 !important;
+	color: #967f39 !important;
+	font-family: 'Playfair Display', sans-serif;
+	font-weight: 300;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+.btn-booking.active.focus, .btn-booking.active:focus, .btn-booking.active:hover, .btn-booking:active.focus, .btn-booking:active:focus, .btn-booking:active:hover, .open > .dropdown-toggle.btn-booking.focus, .open > .dropdown-toggle.btn-booking:focus, .open > .dropdown-toggle.btn-booking:hover, .btn-booking.focus, .btn-booking:focus, .btn-booking.disabled, .btn-booking.disabled:hover {
+    background-color: transparent !important;
+    border-color: #967f39 !important;
+	color: #967f39 ;
+}
+
  textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
      outline: none;
 }
@@ -192,7 +207,7 @@
      font-size: 20px;
      line-height: 20px;
      font-weight: 300;
-	     color: #67615a;
+	 color: #67615a;
 }
 
 font-family: 'Playfair Display'
