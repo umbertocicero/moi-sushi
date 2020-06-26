@@ -127,9 +127,9 @@
      max-width: 100%;
 }
 button.btn-booking {
-    background-color: transparent !important;
+    background-color: #ffffff42 !important;
     border-color: #967f39 !important;
-	color: #967f39 !important;
+    color: #bb8d00 !important;
 	font-family: 'Playfair Display', sans-serif;
 	font-weight: 300;
 	letter-spacing: 3px;
