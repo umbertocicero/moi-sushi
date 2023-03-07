@@ -137,6 +137,10 @@
  img {
      max-width: 100%;
 }
+ .space-box{
+    width: 5px; 
+    display: inline-block;
+ }
 button.btn-booking {
     background-color: #ffffff42 !important;
     border-color: #967f39 !important;
@@ -145,6 +149,10 @@ button.btn-booking {
 	font-weight: 300;
 	letter-spacing: 3px;
 	text-transform: uppercase;
+}
+button.btn-booking:hover {
+    color: #eeb50a !important;
+    background-color: #524d4dc4 !important;
 }
 .btn-booking.active.focus, .btn-booking.active:focus, .btn-booking.active:hover, .btn-booking:active.focus, .btn-booking:active:focus, .btn-booking:active:hover, .open > .dropdown-toggle.btn-booking.focus, .open > .dropdown-toggle.btn-booking:focus, .open > .dropdown-toggle.btn-booking:hover, .btn-booking.focus, .btn-booking:focus, .btn-booking.disabled, .btn-booking.disabled:hover {
     background-color: transparent !important;
@@ -192,7 +200,7 @@ button.btn-booking {
     /*font-size: 14px;
      */
      font-weight: 300;
-     letter-spacing: 4px;
+     letter-spacing: 2px;
 }
  h5, .h5, h5 a, .q_icon_with_title .icon_text_holder h5.icon_title{
      color: #9e968e;
@@ -272,8 +280,8 @@ button.btn-booking {
      overflow: hidden;
 }
  .footer {
-     padding-top:50px;
-     padding-bottom:50px;
+     padding-top:40px;
+     padding-bottom:40px;
      color:#fff;
      background:#222222;
 }
@@ -868,11 +876,15 @@ button.btn-booking {
      font-size:15px;
 }
  .main-footer .social a:hover{
-     color:#ff2b4a;
+     color:#bb8d00;
 }
  .main-footer .social a i{
+    /* 
      border-right:1px solid #c3bec2;
-     padding:0 10px 0 10px;
+      */
+     padding:0;
+    
+     font-size: 20px;
 }
  .main-footer .social a i.noborder{
      border-right:0;
@@ -979,6 +991,7 @@ button.btn-booking {
      font-size: 14px;
      font-size: 0.875rem;
      border: 2px solid #EDEDED;
+     margin-right: 5px
 }
  .cd-menu-trigger span {
     /* hamburger icon */
