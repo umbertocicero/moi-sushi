@@ -33,8 +33,8 @@
         "Saturday",
         "Sunday"
       ],
-      "opens": "18:30",
-      "closes": "23:00"
+      "opens": "21:00",
+      "closes": "00:00"
     }
   ],
   "acceptsReservations": "True"
