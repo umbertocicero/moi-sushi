@@ -149,6 +149,7 @@ button.btn-booking {
 	font-weight: 300;
 	letter-spacing: 3px;
 	text-transform: uppercase;
+	min-width: 120px;
 }
 button.btn-booking:hover {
     color: #eeb50a !important;
